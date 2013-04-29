@@ -303,8 +303,6 @@
 			var dateString = this.element.val().split(this.separator);
 			var start = moment(dateString[0], this.format);
 			var end = moment(dateString[1], this.format);
-			console.log(start);
-			console.log(end);
 			// TODO check if can be changed by === null
 			if (start == null || end == null)
 				return;
